@@ -1,0 +1,142 @@
+/* .open-sans-<uniquifier > {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  /* font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100; */
+}
+.outercontainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(30, 29, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height: 450px;
+  margin: 30px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2397c4;
+  background-image: linear-gradient(
+    90deg,
+    rgba(35, 151, 196, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+#searchtext {
+  border-radius: 2rem;
+  padding: 0.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-width: 60%;
+  border: none;
+}
+
+.searchbar {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#searchbutton {
+  min-width: 4rem;
+  border-radius: 2rem;
+  padding: 0.2rem;
+  border: white;
+  color: rgb(113, 113, 113);
+  background-color: white;
+}
+
+/* .weatherimage {
+  width: 2rem;
+  height: 2rem;
+} */
+
+#weatherimg {
+  /* margin-top: 1rem; */
+  width: 5rem;
+  height: 5rem;
+}
+
+.maincontent {
+  margin-top: 3rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 70%;
+  padding: 1rem;
+  padding-top: 0.2rem;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tempnum {
+  color: white;
+  font-size: 4rem;
+}
+
+.tempstate {
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.footer {
+  /* border: 1px solid black; */
+  width: 90%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footertext {
+  color: white;
+  font-size: 1rem;
+  text-align: end;
+  /* border: 1px solid black; */
+}
+
+.footernumbers {
+  color: white;
+  font-size: 2rem;
+  text-align: end;
+  /* border: 1px solid black; */
+}
+
+/* .humidity {
+  text-align: end;
+} */
+
+span {
+  font-size: 0.7em;
+}
